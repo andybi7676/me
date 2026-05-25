@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0f172a"/>
+  <!-- L: vertical bar -->
+  <rect x="4.5" y="6.5" width="3" height="17" rx="0.5" fill="white"/>
+  <!-- L: bottom horizontal bar -->
+  <rect x="4.5" y="20.5" width="9.5" height="3" rx="0.5" fill="white"/>
+  <!-- thin separator accent -->
+  <rect x="15.5" y="9" width="1" height="13" rx="0.5" fill="#1e3a5f"/>
+  <!-- H: left vertical bar -->
+  <rect x="18" y="6.5" width="3" height="17" rx="0.5" fill="#60a5fa"/>
+  <!-- H: right vertical bar -->
+  <rect x="26" y="6.5" width="3" height="17" rx="0.5" fill="#60a5fa"/>
+  <!-- H: crossbar -->
+  <rect x="18" y="14" width="11" height="2.5" rx="0.5" fill="#60a5fa"/>
+</svg>

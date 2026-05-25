@@ -1,0 +1,13 @@
+{
+  "title": "A Self-Refining Framework for Enhancing ASR Using TTS-Synthesized Data",
+  "venue": "IEEE Automatic Speech Recognition and Understanding Workshop 2025",
+  "venueTag": "ASRU'25",
+  "authors": "Cheng-Kang Chou, Chan-Jan Hsu, Ho-Lam Chung, Liang-Hsuan Tseng, Hsi-Chun Cheng, Yu-Kuan Fu, Kuan Po Huang, Hung-Yi Lee",
+  "selected": false,
+  "order": 7,
+  "links": {
+    "arxiv": "",
+    "page": "",
+    "code": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "TASTE: Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling",
+  "venue": "International Conference on Learning Representations 2026",
+  "venueTag": "ICLR'26",
+  "authors": "Liang-Hsuan Tseng, Yi-Chang Chen, Kuan-Yi Lee, Da-Shan Shiu, Hung-yi Lee",
+  "selected": true,
+  "order": 1,
+  "links": {
+    "arxiv": "",
+    "page": "",
+    "code": ""
+  }
+}

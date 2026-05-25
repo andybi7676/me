@@ -1,0 +1,13 @@
+{
+  "title": "REBORN: Reinforcement-Learned Boundary Segmentation with Iterative Training for Unsupervised ASR",
+  "venue": "Advances in Neural Information Processing Systems 2024",
+  "venueTag": "NeurIPS'24",
+  "authors": "Liang-Hsuan Tseng, En-Pei Hu, Cheng-Han Chiang, Yuan Tseng, Hung-yi Lee, Lin-shan Lee, Shao-Hua Sun",
+  "selected": true,
+  "order": 2,
+  "links": {
+    "arxiv": "",
+    "page": "",
+    "code": ""
+  }
+}
