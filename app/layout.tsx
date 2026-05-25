@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Liang-Hsuan Tseng',
   description: 'Personal website of Liang-Hsuan (Andy) Tseng, PhD student at SPML Lab, NTU',
   icons: {
-    icon: '/favicon.svg',
+    icon: '/me/favicon.svg',
   },
 };
 
