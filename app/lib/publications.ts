@@ -44,7 +44,7 @@ export function loadPublications(): Publication[] {
     let thumbnail: string | undefined;
     for (const ext of ['jpg', 'jpeg', 'png', 'webp']) {
       if (fs.existsSync(path.join(dir, `thumbnail.${ext}`))) {
-        thumbnail = `/publications/${id}/thumbnail.${ext}`;
+        thumbnail = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/publications/${id}/thumbnail.${ext}`;
         break;
       }
     }

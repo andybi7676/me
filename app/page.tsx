@@ -22,7 +22,7 @@ export default function Page() {
             <div className="flex-shrink-0 sm:w-[25%] sm:pr-4">
               <div className="w-36 sm:w-full mx-auto sm:mx-0 rounded-xl overflow-hidden">
                 <Image
-                  src="/selfie_01.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/selfie_01.jpg`}
                   width={2268}
                   height={2268}
                   alt="Liang-Hsuan Tseng"
