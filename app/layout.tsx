@@ -5,15 +5,13 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Liang-Hsuan Tseng',
   description: 'Personal website of Liang-Hsuan (Andy) Tseng, PhD student at SPML Lab, NTU',
-  icons: {
-    icon: '/me/favicon.svg',
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/me/favicon.svg" type="image/svg+xml" />
         <script
           dangerouslySetInnerHTML={{
             __html: `try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark');}}catch(e){}`,

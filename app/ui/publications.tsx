@@ -74,7 +74,7 @@ function PubCard({
   onCopy: () => void;
 }) {
   const links = pub.links ?? {};
-  const hasLinks = links.arxiv || links.page || links.code || links.bibtex;
+  const hasLinks = links.arxiv || links.page || links.code || links.slides || links.bibtex;
 
   return (
     <div className="flex gap-3 sm:gap-4">
@@ -93,9 +93,10 @@ function PubCard({
         </p>
         {hasLinks && (
           <div className="flex flex-wrap gap-1.5 mt-2">
-            {links.arxiv && <LinkChip href={links.arxiv} label="arXiv" />}
-            {links.page  && <LinkChip href={links.page}  label="page"  />}
-            {links.code  && <LinkChip href={links.code}  label="code"  />}
+            {links.arxiv   && <LinkChip href={links.arxiv}   label="arXiv"  />}
+            {links.page    && <LinkChip href={links.page}    label="page"   />}
+            {links.code    && <LinkChip href={links.code}    label="code"   />}
+            {links.slides  && <LinkChip href={links.slides}  label="slides" />}
             {links.bibtex && (
               <button
                 onClick={onToggleBibtex}

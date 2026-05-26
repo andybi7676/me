@@ -5,6 +5,7 @@ export interface PubLinks {
   arxiv?: string;
   page?: string;
   code?: string;
+  slides?: string;
   bibtex?: string;
 }
 
@@ -41,6 +42,11 @@ export function loadPublications(): Publication[] {
       ? fs.readFileSync(bibtexPath, 'utf-8').trim()
       : undefined;
 
+    const slidesPath = path.join(dir, 'slides.pdf');
+    const slides = fs.existsSync(slidesPath)
+      ? `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/publications/${id}/slides.pdf`
+      : undefined;
+
     let thumbnail: string | undefined;
     for (const ext of ['jpg', 'jpeg', 'png', 'webp']) {
       if (fs.existsSync(path.join(dir, `thumbnail.${ext}`))) {
@@ -53,7 +59,7 @@ export function loadPublications(): Publication[] {
       id,
       ...meta,
       thumbnail,
-      links: { ...meta.links, ...(bibtex ? { bibtex } : {}) },
+      links: { ...meta.links, ...(slides ? { slides } : {}), ...(bibtex ? { bibtex } : {}) },
     });
   }
 

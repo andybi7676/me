@@ -6,8 +6,8 @@
   "selected": false,
   "order": 7,
   "links": {
-    "arxiv": "",
+    "arxiv": "https://arxiv.org/abs/2506.11130",
     "page": "",
-    "code": ""
+    "code": "https://huggingface.co/collections/MediaTek-Research/breezeasr"
   }
 }

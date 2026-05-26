@@ -6,8 +6,8 @@
   "selected": true,
   "order": 2,
   "links": {
-    "arxiv": "",
+    "arxiv": "https://arxiv.org/abs/2402.03988",
     "page": "",
-    "code": ""
+    "code": "https://github.com/andybi7676/reborn-uasr"
   }
 }

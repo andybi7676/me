@@ -6,8 +6,8 @@
   "selected": true,
   "order": 1,
   "links": {
-    "arxiv": "",
-    "page": "",
-    "code": ""
+    "arxiv": "https://arxiv.org/abs/2504.07053",
+    "page": "https://mtkresearch.github.io/TASTE-SpokenLM.github.io",
+    "code": "https://github.com/mtkresearch/TASTE-SpokenLM"
   }
 }

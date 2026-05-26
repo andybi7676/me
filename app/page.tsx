@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { EnvelopeIcon } from '@heroicons/react/24/outline';
+import { EnvelopeIcon, DocumentTextIcon } from '@heroicons/react/24/outline';
 import Banner from '@/app/ui/banner';
 import Experience from '@/app/ui/experience';
 import Publications from '@/app/ui/publications';
@@ -100,6 +100,15 @@ export default function Page() {
                 >
                   <GoogleScholarIcon className="h-3.5 w-3.5 flex-shrink-0" />
                   Google Scholar
+                </a>
+                <a
+                  href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/cv/LH_CV_202606.pdf`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 text-sm text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <DocumentTextIcon className="h-3.5 w-3.5 flex-shrink-0" />
+                  CV
                 </a>
               </div>
             </div>
